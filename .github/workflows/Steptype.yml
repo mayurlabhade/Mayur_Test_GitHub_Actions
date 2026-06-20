@@ -9,7 +9,7 @@ jobs:
         run: echo "Hello from Linux"
       - uses: actions/setup-python@v4
         with:
-          python_version: '3.4'
+          python-version: '3.4'
       - name: step3
         run : print ('Hello from python')
         shell: python
