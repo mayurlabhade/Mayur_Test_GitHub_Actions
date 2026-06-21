@@ -1,0 +1,14 @@
+name: Regular Job
+on:
+    workflow_dispatch:
+jobs:
+    Build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: step 1
+              run: echo " THis is Job1 and Step 1| sleep 10 s"
+    Test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Step 2.2
+              run: echo "this is job 2 and step 2.2 | sleep 10 s"
